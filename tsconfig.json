@@ -4,7 +4,7 @@
     "outDir": "./dist",
     "module": "nodenext",
     "target": "esnext",
-    "types": [],
+    "types": ["jest"],
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
@@ -20,6 +20,7 @@
   },
   "exclude": [
     "jest.config.ts",
+    "src/tests",
     "node_modules",
     "dist"
   ]
